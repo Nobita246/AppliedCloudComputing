@@ -1,0 +1,1 @@
+<button type="{{ $type }}">{{ ucfirst($type) }}</button>
