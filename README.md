@@ -21,3 +21,24 @@ This is a basic web application example that includes a user information form an
 
    ```bash
    git clone https://github.com/Nobita246/AppliedCloudComputing.git
+   
+2. Install Dependencies:
+
+   ```bash
+   composer update
+   
+3.Set Environment Variables:
+
+    ```bash
+    cp .env.example .env
+
+4. Run Database Migrations:
+
+    ```bash
+    php artisan migrate
+
+5. Serve the Application:
+
+   ```bash
+   php artisan serve
+
